@@ -19,8 +19,11 @@ const LikeSection = props => {
       </div>
     </div>
     <p className="like-number">
-      
-      likes {props.onClickHandler}</p>
+       likes <button onClick={props.onClickHandler }  >
+        {props.likes}
+    </button>
+        
+    </p>
 </div>
   )
 };
